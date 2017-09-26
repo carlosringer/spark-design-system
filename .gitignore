@@ -1,9 +1,0 @@
-demo
-dist
-node_modules
-npm-debug.log
-*.swp
-*.swo
-.DS_Store
-lerna-debug.log
-.idea
