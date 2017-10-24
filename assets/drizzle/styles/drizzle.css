@@ -285,7 +285,13 @@ body {
 
 code,
 pre {
-  font-family: "Source Code Pro", monospace !important;
+  font-family: "Source Code Pro, monospace", monospace !important;
+}
+
+.drizzle-CodeHighlight {
+  background-color: #f0f0f0;
+  padding: 6px 10px;
+  line-height: 1.75;
 }
 
 .drizzle-FrameThumb {
@@ -390,6 +396,10 @@ pre {
 .drizzle-Layout-main {
   margin: 0;
   position: relative;
+}
+
+.drizzle-Layout-main {
+  max-width: 70em;
 }
 
 @media (min-width: 60em) {
